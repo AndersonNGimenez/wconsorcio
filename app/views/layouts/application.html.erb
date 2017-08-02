@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wconsorcio</title>
+    <title>test</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,9 @@
   </head>
 
   <body>
+    <%= render 'layouts/menu' %>
+    <%= render 'layouts/navigation' %>
     <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
