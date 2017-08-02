@@ -14,8 +14,14 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
+  background-image: asset-url('cover_image4.jpg');
+  background-size: cover;
+  height: 200;
+
   text-align: center;
   background-color: transparent;
+
+  border-bottom: 1px solid #eee;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -88,4 +94,28 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
