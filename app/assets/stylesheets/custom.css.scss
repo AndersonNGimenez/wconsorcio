@@ -14,7 +14,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  background-image: asset-url('cover_image4.jpg');
+  background-image: asset-url('cover_image.jpg');
   background-size: cover;
   height: 200;
 
@@ -22,6 +22,8 @@ body {
   background-color: transparent;
 
   border-bottom: 1px solid #eee;
+
+  color: white;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -94,6 +96,10 @@ body {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+h1 {
+  color: white;
 }
 
 h4 {
